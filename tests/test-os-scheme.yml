@@ -1,0 +1,17 @@
+name: Test os and scheme inputs
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - id: action
+        uses: .
+        with:
+          run: echo "Running with os and scheme inputs"
+          os: alpine
+          scheme: small
+      - name: Assert action completed successfully
+        run: |
+          echo "PASS: action ran successfully with os and scheme inputs"
