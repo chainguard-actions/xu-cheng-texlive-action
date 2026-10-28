@@ -6,10 +6,10 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 
 ## Versions
 
-| Version | Tag | Upstream commit |
-|---------|-----|-----------------|
-| v2 | [`v2`](https://github.com/chainguard-actions/xu-cheng-texlive-action/tree/v2) | [`f886de8`](https://github.com/xu-cheng/texlive-action/commit/f886de8159e5952a131848a5fa9c3196a2132b5d) |
-| v3 | [`v3`](https://github.com/chainguard-actions/xu-cheng-texlive-action/tree/v3) | [`22c0432`](https://github.com/xu-cheng/texlive-action/commit/22c04326a5d855880f9d39bb955138bf11c6df80) |
+| Version | Tag | Upstream commit | Hardening report |
+|---------|-----|-----------------|------------------|
+| v2 | [`v2`](https://github.com/chainguard-actions/xu-cheng-texlive-action/tree/v2) | [`f886de8`](https://github.com/xu-cheng/texlive-action/commit/f886de8159e5952a131848a5fa9c3196a2132b5d) | [`HARDENING.md`](https://github.com/chainguard-actions/xu-cheng-texlive-action/blob/v2/HARDENING.md) |
+| v3 | [`v3`](https://github.com/chainguard-actions/xu-cheng-texlive-action/tree/v3) | [`22c0432`](https://github.com/xu-cheng/texlive-action/commit/22c04326a5d855880f9d39bb955138bf11c6df80) | [`HARDENING.md`](https://github.com/chainguard-actions/xu-cheng-texlive-action/blob/v3/HARDENING.md) |
 
 ## Privacy
 
